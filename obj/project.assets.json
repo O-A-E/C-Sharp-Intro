@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Sase/Projects/C Sharp Intro/C Sharp Intro.csproj",
+      "projectUniqueName": "/Users/Sase/Projects/C-Sharp-Intro/C Sharp Intro.csproj",
       "projectName": "C Sharp Intro",
-      "projectPath": "/Users/Sase/Projects/C Sharp Intro/C Sharp Intro.csproj",
+      "projectPath": "/Users/Sase/Projects/C-Sharp-Intro/C Sharp Intro.csproj",
       "packagesPath": "/Users/Sase/.nuget/packages/",
-      "outputPath": "/Users/Sase/Projects/C Sharp Intro/obj/",
+      "outputPath": "/Users/Sase/Projects/C-Sharp-Intro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Sase/.nuget/NuGet/NuGet.Config"

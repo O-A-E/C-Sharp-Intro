@@ -6,38 +6,42 @@ namespace C_Sharp_Intro
     {
         static void Main(string[] args)
         {
-            // Two slashes mark the beginning of a single comment line.
-           // We are assigning a string value to a variable.
-           string myName = "Osase";
-           /* We begin multi line comments with a forward asterisk
+           // "=" is the assignment operator!
+           // String datatype is used for text.
+           string myString = "This is a string!";
+           //Integer datatype is used for whole numbers (no decimals.)
+           int myInt = 42;
+           // Double datatype is used for decimal point numbers.
+           double myDouble = 33.666;
+           //Boolean datatype is used for TRUE/FALSE values - think binary!
+           bool myBool = true;
 
-            Symbols between values or evaluations are considered "operators." Below we are using the addition
-            symbol to concatenate two strings. (concantenation means gluing two strings, or texts, together.)
+           // Subtraction operator is "-" (minus.)
+           Console.WriteLine( myInt - 10); // 32
 
-           ... and end multi line comments with an asterisk followed by a forward slash */
-            Console.WriteLine("Hello, " + myName);
+           // Multiplication operator is "*" (multiply.)
+           Console.WriteLine(myInt * 2); // 84
 
-            Console.writeline("Please enter your name...";)
+           // Division operator is "/" (division.)
+           Console.WriteLine( myInt / 2); // 21
 
-            // Assign variable 'username' to a value entered by the use.
+           //modulus operator is "%" (percent sign.)
+           Console.WriteLine (myInt % 13 ); // 3
 
-            string username = Console.Readline();
-            // Show user we collected their name.
-            console.writeline("You have entered: " +username);
-            //Instead of traditional concatenation using the addition operator
-            // We can use string interpolatio (place holders) to embed values in
-            // a string!
-            // @link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
+           // Addition operator is "+" (Plus.)
+           // ***WAIT!! This is also the concatenation operator!
+           Console.WriteLine(myInt + 8 ); // 50
 
-           
-            console.writeline("Hey {0}, you're looking great today!" , username);
-            // Let's play with strings!
-            console.writeline( "makemeuppercase".ToUpper() ); //Convert to uppercase
-            console.writeline("MAKEMELOWERCASE". ToLower() ); //Convert to lowercase
-            // Substring takes two arguments: 1) Starting character position 2) Number of characters to collect.
-            console.writeline( "ABCDEFGHIJKLMNOPQRSTUVWXYZ".Substring( 4, 6  ) );
+           Console.WriteLine( "3" + "3" ); // 33
 
-            console.writeline("XYZ".Length ); // Get the number of characters in the string.
+           Console.WriteLine( "3" + 3 ); // ??
+           Console.WriteLine( 3 + "3" ); // ??
+           Console.WriteLine( 3 + 6 + "3" ); // ??
+
+
+
+        
+
         }
     }
 }

@@ -10,3 +10,15 @@
 /Users/Sase/Projects/C Sharp Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.dll
 /Users/Sase/Projects/C Sharp Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.pdb
 /Users/Sase/Projects/C Sharp Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.genruntimeconfig.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.csprojAssemblyReference.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.AssemblyInfoInputs.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.AssemblyInfo.cs
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.csproj.CoreCompileInputs.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.dll
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.pdb
+/Users/Sase/Projects/C-Sharp-Intro/bin/Debug/netcoreapp3.1/C Sharp Intro.deps.json
+/Users/Sase/Projects/C-Sharp-Intro/bin/Debug/netcoreapp3.1/C Sharp Intro.runtimeconfig.json
+/Users/Sase/Projects/C-Sharp-Intro/bin/Debug/netcoreapp3.1/C Sharp Intro.runtimeconfig.dev.json
+/Users/Sase/Projects/C-Sharp-Intro/bin/Debug/netcoreapp3.1/C Sharp Intro.dll
+/Users/Sase/Projects/C-Sharp-Intro/bin/Debug/netcoreapp3.1/C Sharp Intro.pdb
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C Sharp Intro.genruntimeconfig.cache

@@ -1,0 +1,4 @@
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C-Sharp-Intro.csprojAssemblyReference.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C-Sharp-Intro.AssemblyInfoInputs.cache
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C-Sharp-Intro.AssemblyInfo.cs
+/Users/Sase/Projects/C-Sharp-Intro/obj/Debug/netcoreapp3.1/C-Sharp-Intro.csproj.CoreCompileInputs.cache
