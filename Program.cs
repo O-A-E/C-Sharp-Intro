@@ -36,6 +36,24 @@ namespace C_Sharp_Intro
             {
                 Console.WriteLine( "current (for) number is: {0}", i );
             }
+        
+        // [] tells program to create more than one string. We are assigning more than one string
+        // If we need to iterate through a list, use foreach!
+        // @link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in
+         
+
+        string [] myList = { "cat", "turtle", "lizard", "frog", "dog" };
+        // { } show the start and end of our list
+        // each type of animal is a string
+        // this type of loop is read-only, so you can't change the animal name "cat" to "ant"
+        // would need a different loop command to do this
+
+        foreach ( string listItem in myList )
+        // For each item, there will be a string in my list
+        {
+            Console.WriteLine( "The current item is: {0}", listItem );
+        }
+
         }
 
 
