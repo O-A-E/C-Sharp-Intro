@@ -6,65 +6,53 @@ namespace C_Sharp_Intro
     {
         static void Main(string[] args)
         {
-           // "=" is the assignment operator!
-           // String datatype is used for text.
-           string myString = "This is a string!";
-           //Integer datatype is used for whole numbers (no decimals.)
-           int myInt = 42;
-           // Double datatype is used for decimal point numbers.
-           double myDouble = 33.666;
-           //Boolean datatype is used for TRUE/FALSE values - think binary!
-           bool myBool = true;
+           // Logical operatos.
+           // OR will evaluate to TRUE if either side is TRUE
+           Console.WriteLine ( true || true ); // TURE // || is OR
+           Console.WriteLine ( false || true ); // will give true
+           Console.WriteLine ( false || false ); // false, both sides have to be false to see false
+ 
+           // AND will evaluate to TRUE only if BOTH sides are true!
+           Console.WriteLine (true && true); // TRUE // && is AND
+           Console.WriteLine (false && true ); // will give false
+           Console.WriteLine ( false && true ); // false
 
-           // Subtraction operator is "-" (minus.)
-           Console.WriteLine( myInt - 10); // 32
+           //How does this behave with different data-types?
+           //Console.WriteLine ( true && 1 ); // it doesn't!
 
-           // Multiplication operator is "*" (multiply.)
-           Console.WriteLine(myInt * 2); // 84
+           //Comperative operators....
+            //"Equal to" check
+                Console.WriteLine( false == false ); // one = means it's an assignment! y
+                    // two == this will check if something is equal to something
+                Console.WriteLine( true == false ); // false
+                Console.WriteLine( 2.25 == 2.25 ); // true
+                Console.WriteLine ( 2.25 == 3.14 ); //false
+                 // Console.WriteLine( 3.14 == "3.14" ); // Cannot check two different types! Will give an error
 
-           // Division operator is "/" (division.)
-           Console.WriteLine( myInt / 2); // 21
+           // "Greater than" check
+                Console.WriteLine( 6 > 7 ); // Fa;se
+                Console.WriteLine( 10 > 5); // true
 
-           //modulus operator is "%" (percent sign.)
-           Console.WriteLine (myInt % 13 ); // 3
+           // "Less than" check
+                Console.WriteLine( 6 < 7); // True
+                Console.WriteLine( 10 < 5); // false
 
-           // Addition operator is "+" (Plus.)
-           // ***WAIT!! This is also the concatenation operator!
-           Console.WriteLine(myInt + 8 ); // 50
+           // "Greater than or equal to" check
+                Console.WriteLine( 5 >= 5); // true
+                Console.WriteLine( 10 >= 5); // true
+                Console.WriteLine( 4 >= 5); // false
 
-           Console.WriteLine( "3" + "3" ); // 33
+           // "Less than or equal to" check
+                Console.WriteLine( 5 <= 5); // true
+                Console.WriteLine( 10 <= 5); // false
+                Console.WriteLine( 4 <= 5); // true
+                // Make sure the operator looks like "<=" not "=>" which is an arrow command for something else!
 
-           Console.WriteLine( "3" + 3 ); // 33
-           Console.WriteLine( 3 + "3" ); // 33
-           Console.WriteLine( 3 + 6 + "3" ); // 93
-
-           // Output our variable.
-           Console.WriteLine(myInt); //42
-
-            // A new assignment on an exisiting variable.
-           myInt = myInt + 2; //44
-            Console.WriteLine(myInt); //44
-
-            // myInt = myInt + "2"; // We can't turn my Int into a string@!
-                                    // we told c# that myInt would always be ab int!
-            // Console.WriteLine( myInt );
-
-            myInt++; // This is the same as typing: myInt = myInt + 1;
-                Console.WriteLine( myInt); // 45
-            myInt--; // This is the same as typing: myInt = myInt - 1;
-            Console.WriteLine( myInt); // 44   
-
-            myInt += 3; // the same as typing: myInt = myInt + 3;
-            Console.WriteLine( myInt); // 47  
-
-             myInt -= 5; // the same as typing: myInt = myInt - 5;
-            Console.WriteLine( myInt); // 42        
-
-
-
-
-
-        
+           // "NOT equal to" check
+                Console.WriteLine( false != false ); // false!
+                Console.WriteLine( true != false ); // true! 
+                Console.WriteLine( 5 != 5 ); // false
+                Console.WriteLine( 5 != 10 ); //true
 
         }
     }
